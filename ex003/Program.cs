@@ -41,6 +41,8 @@ void GetArray(){
     Console.WriteLine();
     Console.WriteLine($" Наибольшее число массива равно {array[countMax]}");
     Console.WriteLine($" Наименьшее число массива равно {array[countMin]}");
+    Console.WriteLine($" Разница между максимальным и минимальным элементом массива:");
+    Console.WriteLine($"{array[countMax]} - {array[countMin]} = {array[countMax] - array[countMin]}");
     
 }
 
