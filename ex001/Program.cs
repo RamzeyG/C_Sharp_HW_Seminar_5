@@ -2,9 +2,7 @@
 
 
 void GetArray(){
-
-    
-    
+        
     int size = Convert.ToInt32(new Random().Next(0, 99));
     int[] array = new int[size];
     int count = 0;
@@ -26,17 +24,17 @@ void GetArray(){
     
     
     Console.WriteLine("Четные числа массива: ");
-    int summ = 0;
+    int CountEvenNumber = 0;
     foreach (int i in array){
         
         if (i%2 == 0){
-            summ = summ + i;  
+            CountEvenNumber ++;  
             Console.Write($"{i} ");
         }
     
     }
     Console.WriteLine();
-    Console.WriteLine($"Сумма четных элементов массива равна {summ}");
+    Console.WriteLine($"Количество четных элементов массива равно {CountEvenNumber}");
     
 }
 
